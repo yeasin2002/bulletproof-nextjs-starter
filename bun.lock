@@ -119,7 +119,7 @@
         "storybook": "latest",
         "tailwindcss": "^3.4.17",
         "tsx": "latest",
-        "typescript": "^5.8.3",
+        "typescript": "^5.9.2",
         "vite": "latest",
         "vitest": "latest",
       },
@@ -2662,7 +2662,7 @@
 
     "typed-array-length": ["typed-array-length@1.0.7", "", { "dependencies": { "call-bind": "^1.0.7", "for-each": "^0.3.3", "gopd": "^1.0.1", "is-typed-array": "^1.1.13", "possible-typed-array-names": "^1.0.0", "reflect.getprototypeof": "^1.0.6" } }, ""],
 
-    "typescript": ["typescript@5.8.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ=="],
+    "typescript": ["typescript@5.9.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A=="],
 
     "typhonjs-ast-walker": ["typhonjs-ast-walker@0.2.1", "", {}, "sha512-CpnkW3kxunDwKW2y99jqHCAPqhUzY9T033TM/GOWvtSIP33xy7kOPzp8hPx+Ns2Z4Q7n7PkFqUGPy/ijs3Y3eA=="],
 
