@@ -128,7 +128,7 @@
     "@storybook/addon-docs": "9.0.18",
     "@storybook/addon-links": "latest",
     "@storybook/addon-onboarding": "^9.0.18",
-    "@storybook/addon-vitest": "9.0.18",
+    "@storybook/addon-vitest": "9.1.7",
     "@storybook/nextjs-vite": "^9.0.18",
     "@testing-library/jest-dom": "latest",
     "@types/node": "^24.3.0",
