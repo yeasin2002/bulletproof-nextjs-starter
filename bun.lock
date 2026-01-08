@@ -56,7 +56,7 @@
         "clsx": "^2.1.1",
         "cmdk": "latest",
         "codehawk-cli": "^10.1.0",
-        "dotenv": "^17.2.1",
+        "dotenv": "^17.2.3",
         "drizzle-orm": "^0.44.3",
         "embla-carousel-react": "latest",
         "eslint-plugin-import": "^2.32.0",
@@ -1549,7 +1549,7 @@
 
     "dotdir-regex": ["dotdir-regex@1.0.1", "", {}, "sha512-kdFn3THtHoTIRKKaGXxKgsWD1VEcoWTjts+EX8qY+ydvMC3GjxWvcu5mclkXBTO9eDJkEYhJV4uF9PpaTgIHVw=="],
 
-    "dotenv": ["dotenv@17.2.1", "", {}, ""],
+    "dotenv": ["dotenv@17.2.3", "", {}, "sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w=="],
 
     "dotenv-expand": ["dotenv-expand@11.0.7", "", { "dependencies": { "dotenv": "^16.4.5" } }, ""],
 
