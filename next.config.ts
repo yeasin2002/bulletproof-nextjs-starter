@@ -6,6 +6,12 @@ const withNextIntl = createNextIntlPlugin()
 const withBundleAnalyzer = bundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })
 
 const nextConfig: NextConfig = {
+  typedRoutes: true,
+  images: {
+    remotePatterns: [],
+  },
+
+  // load SVG as JSX component with svgr
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -21,22 +27,6 @@ const nextConfig: NextConfig = {
         as: '*.js',
       },
     },
-  },
-
-  experimental: {
-    typedRoutes: true,
-  },
-
-  eslint: {
-    ignoreDuringBuilds: process.env.NODE_ENV === 'production',
-  },
-
-  typescript: {
-    ignoreBuildErrors: process.env.NODE_ENV === 'production',
-  },
-
-  images: {
-    remotePatterns: [],
   },
 }
 
