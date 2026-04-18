@@ -4,7 +4,7 @@
 
 import { NextIntlClientProvider } from 'next-intl'
 import React from 'react'
-import { ThemeProvider } from '../../components/theme-provider'
+import { ThemeProvider } from '../../components/shared/theme-provider'
 
 export const RootWrapper = ({
   children,

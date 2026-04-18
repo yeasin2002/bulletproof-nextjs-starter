@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import type React from 'react'
 import '../../styles/globals.css'
 
-import { rootMetadata } from '#/config/root-metadata'
+
 import { routing } from '@/i18n/routing'
 import { hasLocale } from 'next-intl'
 import { notFound } from 'next/navigation'

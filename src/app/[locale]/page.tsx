@@ -1,4 +1,4 @@
-import { ThemeToggle } from '@/components/theme-toggle'
+import { ThemeToggle } from '@/components/shared/theme-toggle'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Code2, Database, Palette, Shield, Sparkles, TestTube, Zap } from 'lucide-react'
