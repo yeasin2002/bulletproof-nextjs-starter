@@ -10,7 +10,7 @@ export interface User {
   updatedAt: Date
 }
 
-export interface ApiResponse<T = any> {
+export interface ApiResponse<T = unknown> {
   success: boolean
   data?: T
   error?: string
@@ -85,5 +85,5 @@ export interface BaseEntity {
 export interface AppError extends Error {
   code?: string
   statusCode?: number
-  details?: any
+  details?: unknown
 }

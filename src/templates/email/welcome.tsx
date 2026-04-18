@@ -20,7 +20,7 @@ export default function WelcomeEmail({ firstName, verificationUrl }: WelcomeEmai
   return (
     <Html>
       <Head />
-      <Preview>Welcome to Next.js Boilerplate! Let's get you started.</Preview>
+      <Preview>Welcome to Next.js Boilerplate! {`Let's`} get you started.</Preview>
       <Body style={main}>
         <Container style={container}>
           <Section style={logoContainer}>
@@ -36,8 +36,8 @@ export default function WelcomeEmail({ firstName, verificationUrl }: WelcomeEmai
           <Heading style={h1}>Welcome to Next.js Boilerplate, {firstName}!</Heading>
 
           <Text style={text}>
-            Thank you for joining us! We're excited to have you on board and can't wait to see what
-            you'll build with our comprehensive Next.js boilerplate.
+            Thank you for joining us! {`We're`} excited to have you on board and {`can't`} wait to
+            see what {`you'll`} build with our comprehensive Next.js boilerplate.
           </Text>
 
           {verificationUrl && (
@@ -53,7 +53,8 @@ export default function WelcomeEmail({ firstName, verificationUrl }: WelcomeEmai
               </Section>
 
               <Text style={text}>
-                If the button doesn't work, you can also copy and paste this link into your browser:
+                If the button {`doesn't`} work, you can also copy and paste this link into your
+                browser:
               </Text>
               <Text style={link}>{verificationUrl}</Text>
             </>
@@ -69,8 +70,8 @@ export default function WelcomeEmail({ firstName, verificationUrl }: WelcomeEmai
           </ul>
 
           <Text style={text}>
-            If you have any questions or need help getting started, don't hesitate to reach out to
-            our support team at{' '}
+            If you have any questions or need help getting started, {`don't`} hesitate to reach out
+            to our support team at{' '}
             <Link href="mailto:support@example.com" style={link}>
               support@example.com
             </Link>

@@ -9,23 +9,6 @@ export const APP_CONFIG = {
   email: 'hello@example.com',
 } as const
 
-export const ROUTES = {
-  HOME: '/',
-  DASHBOARD: '/dashboard',
-  PROFILE: '/profile',
-  SETTINGS: '/settings',
-  SIGN_IN: '/sign-in',
-  SIGN_UP: '/sign-up',
-  FORGOT_PASSWORD: '/forgot-password',
-  RESET_PASSWORD: '/reset-password',
-  VERIFY_EMAIL: '/verify-email',
-  PRIVACY: '/privacy',
-  TERMS: '/terms',
-  CONTACT: '/contact',
-  ABOUT: '/about',
-  BLOG: '/blog',
-  DOCS: '/docs',
-} as const
 
 export const API_ROUTES = {
   AUTH: {
@@ -55,25 +38,10 @@ export const PAGINATION = {
   MAX_LIMIT: 100,
 } as const
 
-export const VALIDATION = {
-  PASSWORD_MIN_LENGTH: 8,
-  USERNAME_MIN_LENGTH: 3,
-  USERNAME_MAX_LENGTH: 20,
-  NAME_MAX_LENGTH: 50,
-  BIO_MAX_LENGTH: 500,
-  MESSAGE_MAX_LENGTH: 1000,
-  FILE_MAX_SIZE: 5 * 1024 * 1024, // 5MB
-} as const
 
 export const SUPPORTED_IMAGE_TYPES = ['image/jpeg', 'image/png', 'image/webp', 'image/gif'] as const
 
-export const SUPPORTED_FILE_TYPES = [
-  ...SUPPORTED_IMAGE_TYPES,
-  'application/pdf',
-  'text/plain',
-  'application/msword',
-  'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-] as const
+
 
 export const SOCIAL_LINKS = {
   TWITTER: 'https://twitter.com/yourusername',
@@ -103,11 +71,6 @@ export const COOKIE_NAMES = {
   CONSENT: 'cookie-consent',
 } as const
 
-export const LOCAL_STORAGE_KEYS = {
-  THEME: 'theme',
-  SIDEBAR_STATE: 'sidebar-state',
-  RECENT_SEARCHES: 'recent-searches',
-} as const
 
 export const ERROR_MESSAGES = {
   GENERIC: 'Something went wrong. Please try again.',
